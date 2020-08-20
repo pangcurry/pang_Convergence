@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>가입서식 작성</title>
+  </head>
+  <body>
+    <h3>가입서식 작성</h3>
+    <small>* 표시는 필수입력사항입니다.</small>
+    <fieldset>
+      <legend>회원가입서</legend>
+      <table>
+        <p>사용자 폼 입력</p>
+        <tr>
+          <td>
+            <label for="name">* 이름</label>
+          </td>
+          <td>
+            <input type="text">
+          </td>
+        </tr>
+        <!-- start 아이디 -->
+        <tr>
+          <td>* 아이디</td>
+          <td>
+            <label for="id"><strong>영문,숫자 4~10글자 내외</strong></label>
+            <input type="text" name="id" value="">
+          </td>
+        </tr>
+        <!-- start 비밀번호 -->
+        <tr>
+          <td>
+              <label for="email">* 비밀번호</label>
+          </td>
+          <td>
+            <label for="pw"><strong>영문,숫자 4~10글자 내외</strong></label>
+            <input type="password" name="pw" value="">
+          </td>
+        </tr>
+        <!-- start 비밀번호 확인 -->
+        <tr>
+          <td>
+              <label for="email">* 비밀번호확인</label>
+          </td>
+          <td>
+            <input type="password" name="pw_ch" value="">
+          </td>
+        </tr>
+        <!-- start 이메일 -->
+        <tr>
+          <td>
+            <label for="email">* 이메일</label>
+          </td>
+          <td>
+            <input type="email" name="email" value="">
+          </td>
+        </tr>
+        <!-- start 직장 -->
+        <tr>
+          <td>
+            <label for="job">* 직업</label>
+          </td>
+          <td>
+            <select name="job">
+              <option value="1">직업선택</option>
+              <option value="2">백엔드 개발자</option>
+              <option value="3">프론트 개발자</option>
+            </select>
+          </td>
+        </tr>
+        <!-- start 직장 학교명 -->
+        <tr>
+          <td>
+            <label for="school">* 직장 학교명</label>
+          </td>
+          <td>
+            <input type="text" name="school" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="grade">* 직책</label>
+          </td>
+          <td>
+            <input type="text" name="grade" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="office">* 사무실TEL</label>
+          </td>
+          <td>
+            <input type="tel" name="office"
+            placeholder="숫자만 기입" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone">* 핸드폰</label>
+          </td>
+          <td>
+            <input type="tel" name="phone"
+            placeholder="숫자만 기입" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="contents">* 하고싶은말</label>
+          </td>
+          <td>
+            <textarea name="contents"
+             rows="8" cols="80"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a type="submit" href="#">등록</a>
+            <a type="submit" href="#">취소</a>
+          </td>
+
+        </tr>
+
+      </table>
+    </fieldset>
+  </body>
+</html>
